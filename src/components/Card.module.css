@@ -1,17 +1,18 @@
 :root {
-  --size: 23vw;
+  --size: 365px;
   --rating-size: 45px;  
 }
 
 section {
   display: flex;
+  gap: 24px;
   flex-direction: column;
   padding: 24px 32px;
   justify-content: space-evenly;
   align-items: flex-start;
-  max-height: var(--size);
+  /* max-height: var(--size); */
   max-width: var(--size);
-  min-height: var(--size);
+  /* min-height: var(--size); */
   min-width: var(--size);
   /* border: 1px solid bisque; */
   border-radius: 20px;
@@ -30,15 +31,12 @@ section {
   :root {
     --size: 20vw;
   }
-  section {
-    padding: 0px 36px;
-  }
 }
 
 /* Standard Laptops and Desktops */
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
   :root {
-    --size: 25vw;
+    --size: 26.69vw;
   }
   section {
     padding: 10px 36px;
