@@ -10,10 +10,8 @@ span {
     display: flex;
     width: 100%;
     color: var(--light-grey);
-    /* align-items: center; */
     justify-content: center;
     flex-direction: row;
-    /* gap: 18px; */
     justify-content: space-between;
 }
 
@@ -24,7 +22,6 @@ button {
     width: 100%;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 14px;
     letter-spacing: 1.4px;
     color: var(--white);
     cursor: pointer;
@@ -48,7 +45,6 @@ button:hover {
 }
 
 .active:hover{
-    /* outline: var(--primary) thin; */
     outline: 2.4px solid var(--primary);
     border: none;
 }
@@ -61,7 +57,6 @@ button:hover {
     height: var(--rating-size);
     border: none;
     border-radius: 50%;
-    padding: 12px;
     background-color: var(--dark-blue);
     box-shadow: 1px -1px 2px #252d37,
              -1px 2px -5px #252d37;
@@ -72,5 +67,3 @@ span .rating:hover {
     background-color: var(--primary);
     color: var(--white);
 }
-
-
