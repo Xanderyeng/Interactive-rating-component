@@ -1,0 +1,28 @@
+:root {
+  --size: 21vw;
+  --rating-size: 45px;  
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  max-height: var(--size);
+  max-width: var(--size);
+  min-height: var(--size);
+  min-width: var(--size);
+  /* border: 1px solid bisque; */
+  border-radius: 20px;
+  /* Radial gradient background */
+  background: radial-gradient(
+    circle at 54% 0%,
+    rgba(48, 63, 87, 0.93) 1%,
+    rgba(48, 63, 87, 0.95) 1%,
+    rgba(48, 63, 87, 0.65) 10%,
+    rgba(21, 32, 43, 1) 45%
+  );
+}
+
+
