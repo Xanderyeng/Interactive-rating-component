@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -51,6 +51,8 @@ Users should be able to:
 ### What I learned
 
 Throughout this project, I gained experience in building interactive components using React and enhancing user experience with animations. I also learned how to structure my components for reusability and maintainability.
+
+Learning how to deploy a React project to GitHub pages when scaffolded with vite was very refreshing. Creating a yaml file which would define the sequence of creating the artifacts required to build and deploy the final project files for hosting.
 
 ### Continued development
 
