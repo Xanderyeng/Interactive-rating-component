@@ -1,5 +1,5 @@
 :root {
-  --size: 21vw;
+  --size: 23vw;
   --rating-size: 45px;  
 }
 
@@ -27,13 +27,25 @@ section {
 
 /* Larger Desktops and Monitors */
 @media screen and (min-width: 1441px) {
-
+  :root {
+    --size: 20vw;
+  }
+  section {
+    padding: 0px 36px;
+  }
 }
 
 /* Standard Laptops and Desktops */
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
+  :root {
+    --size: 25vw;
+  }
   section {
-    padding: 18px 36px;
+    padding: 10px 36px;
+    max-height: var(--size);
+    max-width: var(--size);
+    min-height: var(--size);
+    min-width: var(--size);
   }
 }
 

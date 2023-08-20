@@ -8,12 +8,13 @@ p {
 
 span {
     display: flex;
+    width: 100%;
     color: var(--light-grey);
     /* align-items: center; */
     justify-content: center;
     flex-direction: row;
-    gap: 18px;
-    justify-content: space-evenly;
+    /* gap: 18px; */
+    justify-content: space-between;
 }
 
 button {
@@ -54,7 +55,7 @@ button:hover {
 
 .rating {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: var(--rating-size);
     height: var(--rating-size);
