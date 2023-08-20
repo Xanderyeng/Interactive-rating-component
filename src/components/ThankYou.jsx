@@ -7,7 +7,7 @@ const illutrastionStyles = {
   backgroundImage: `url(${IllustrationThankYou})`,
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center",
-  backgroundSize: "50%",
+  backgroundSize: "contain",
   objectFit: "contain",
 };
 
